@@ -1,1 +1,68 @@
-/* write your carousel css in this file */
+/* carousel.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 90%;
+}
+
+button{
+  background-color: rgb(0, 0, 0, 0.5); 
+  cursor: pointer;
+  color: #f0f0f0;
+  height: auto;
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.carousel-image img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel-text{
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 40%;
+  height: 50%;
+  color: black;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.65); 
+  padding: 1px;
+  font-size: 48px;  
+  border-radius: 5%;
+  font-weight:800;
+}
+.subtitle {
+  background-color: rgba(255, 255, 255, 0.65); 
+  padding: 5px;
+  font-weight: 600; 
+  border-radius: 5%;
+
+
+}
+
+
+
